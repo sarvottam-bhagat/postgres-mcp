@@ -1,0 +1,16 @@
+{
+  "servers": {
+    "postgres-mcp-server": {
+      "command": "${PATH_TO_VENV}/bin/mcp",
+      "args": ["run", "${PATH_TO_APP}/src/main.py"],
+      "env": {
+        "APP_NAME": "mcp-demo",
+        "DB_HOST": "your-database-host.example.com",
+        "DB_PORT": "5432",
+        "DB_USER": "your-database-username",
+        "DB_PASSWORD": "your-database-password",
+        "DB_NAME": "your-database-name"
+      }
+    }
+  }
+}

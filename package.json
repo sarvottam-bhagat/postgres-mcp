@@ -1,0 +1,23 @@
+{
+  "name": "postgres-mcp-server",
+  "version": "1.0.0",
+  "description": "A FastMCP server for interacting with PostgreSQL databases",
+  "main": "index.js",
+  "bin": {
+    "postgres-mcp-server": "./bin/postgres-mcp-server.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "postgres",
+    "database",
+    "llm"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0"
+  }
+}
