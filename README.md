@@ -105,20 +105,22 @@ Add the following to your `.vscode/mcp.json` file:
 
 ```json
 {
-  "servers": {
-    "postgres-mcp-server": {
-      "type": "stdio",
-      "command": "postgres-mcp-server",
-      "args": [
-        "DB_HOST=your-database-host",
-        "DB_USER=your-database-username",
-        "DB_PASSWORD=your-database-password",
-        "DB_PORT=5432",
-        "DB_NAME=your-database-name"
-      ]
+    "servers": {
+      "postgres-mcp-server": {
+        "command": "/Users/sarvottamb/postgres-mcp/.venv/bin/mcp",
+        "args": ["run", "/Users/sarvottamb/postgres-mcp/src/main.py"],
+        "env": {
+          "APP_NAME": "mcp-demo",
+          "DB_HOST": "",
+          "DB_PORT": "",
+          "DB_USER": "",
+          "DB_PASSWORD": "",
+          "DB_NAME": ""
+        }
+      }
     }
   }
-}
+
 ```
 
 Replace the placeholders with your actual PostgreSQL database credentials.
