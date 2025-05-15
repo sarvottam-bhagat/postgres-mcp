@@ -2,9 +2,9 @@
 
 A FastMCP server that enables LLMs to connect and interact with PostgreSQL databases. This project allows Language Models to query and explore database schemas and tables through the Model Context Protocol (MCP).
 
-## Video Demo
+## Demo Video
 
-[![Watch the video](https://img.youtube.com/vi/ngx2n-fkN0s/0.jpg)](https://youtu.be/ngx2n-fkN0s?si=HkXtvZDE7ocs_XEC)
+[![Demo Video](https://img.youtube.com/vi/ngx2n-fkN0s/maxresdefault.jpg)](https://youtu.be/ngx2n-fkN0s?si=HkXtvZDE7ocs_XEC)
 
 ## Features
 
